@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: inherit;
+    list-style: none;
+    text-decoration: none;
+}
+
+.ota-karobka{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.bola-karobka{
+    width: 230px;
+    height: 230px;
+    background-color: red;
+}
+
+@media(max-width:1240px){
+    body{
+      background-color: yellow;
+    }
+  
+      .ota-karobka{
+        flex-wrap: wrap;
+      }
+  
+      .bola-karobka{
+        width: 30%;
+        background-color: blue;
+      }
+
+  }
+  
+
+  @media(max-width:1070px){
+    body{
+      background-color: red;
+    }
+  
+      .ota-karobka{
+        flex-wrap: wrap;
+      }
+  
+      .bola-karobka{
+        width: 27%;
+        background-color: black;
+      }
+
+  }
+
+  @media(max-width:920px){
+    body{
+      background-color: yellow;
+    }
+  
+      .ota-karobka{
+        flex-wrap: wrap;
+      }
+  
+      .bola-karobka{
+        width: 30%;
+        background-color: blue;
+      }
+
+  }
+
+  @media(max-width:750px){
+    body{
+      background-color: purple;
+    }
+  
+      .ota-karobka{
+        flex-wrap: wrap;
+      }
+  
+      .bola-karobka{
+        width: 40%;
+        background-color: orange;
+      }
+
+  }
+
+  @media(max-width:520px){
+    body{
+      background-color: purple;
+    }
+  
+      .ota-karobka{
+        flex-wrap: wrap;
+      }
+  
+      .bola-karobka{
+        width: 50%;
+        background-color: orange;
+      }
+
+  }
